@@ -16,7 +16,7 @@ describe('scoping', function () {
     Module.prototype.method = function() {
       return this.foo;
     };
-
+    //Test comment
     Module.prototype.req = function() {
       return request(this.method);
     };
