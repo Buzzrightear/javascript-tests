@@ -7,6 +7,8 @@ describe('scoping', function () {
       return callback();
     };
 
+    //Test comment
+    
     function Module () {
       this.foo = 'bar';
     }
